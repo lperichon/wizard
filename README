@@ -19,15 +19,10 @@ Example
 =======
 
 Create a new wizard controller for each wizard you wish to create.
-* Don't name your wizards like my_long_wizard_name_wizard. It will break the helpers.
-Name your wizard like so. mylongwizardname
-I like to name my wizards ending with the word wizard
-orderwizard becomes OrderWizard < ApplicationController ... if you dont like that sorry.
-
 So install the plugin into your vendor/plugins like normal
 
 # next generate a new controller wizard
-script/generate controller customwizard
+script/generate controller customWizard
 
 # Your Wizard controller should like something like this.
 class OrderWizard < ApplicationController
